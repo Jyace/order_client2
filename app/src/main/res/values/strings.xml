@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyEat</string>
+    
+    <string name="befor_login">欢迎访问EasyEat.\n如果您暂时没有账号,请先注册账号,然后再登陆.\n如果您已经注册,则直接登录即可.</string>
+    
+    <string name="no_register">如果您没有账号，请先注册，注册成功后，再进行登陆。</string>
+   
+    <string name="accept">请遵守互联网规则，不散播黄赌毒信息。\n本软件所有使用解释归Jyace所有。</string>
+    
+    <string name="operatoring">操作正在进行，请稍后</string>
+    
+    <string name="username">登陆账号:</string>
+    <string name="password">登陆密码:</string>
+    
+    <string name="updatting">更新菜单</string>
+    
+    <string name="login_account_null">登录账号不能为空</string>
+    <string name="login_password_null">登录密码不能为空</string>
+    <string name="login_email_null">邮箱不能为空</string>
+    <string name="login_email_invalid">邮箱格式不合法</string>
+    <string name="login_gender_null">请选择您的性别</string>
+    <string name="login_accept_no">您必须同意注册条款</string>
+    
+    <string name="new_num_text">新加的菜单有</string>
+    <string name="delete_num_text">服务器删除的菜单有</string>
+    <string name="update_num_text">需要更新的菜单有</string>
+    <string name="error_num_text">出错的数据有</string>
+    
+   	<string name="pro_title">加载数据</string>
+   	<string name="pro_message">正在加载数据，请稍后...</string>
+    
+    <string name="user_setting">
+    	声明：请在这里设置您的登陆信息，在确保账号和密码安全的情况下，
+    	您可以让系统记住登陆账号和登陆密码，这样方便您在登陆时候的操作。
+    	\n如果当前机器不是您个人所有，我们强的的建议不要保存登陆账号和密码， 以免造成不必要的麻烦。
+    </string>
+    
+</resources>

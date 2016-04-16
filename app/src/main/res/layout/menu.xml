@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#abffd5"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_weight="0.17"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_weight="0.38">
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:weightSum="1">
+
+            <ImageButton android:id="@+id/menu_dc"
+                android:src="@drawable/menu_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageButton android:id="@+id/menu_sc"
+                android:src="@drawable/menu_sc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageButton android:id="@+id/menu_gx"
+                android:src="@drawable/menu_gx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <Button android:id="@+id/menu_yl"
+
+                android:layout_width="wrap_content"
+                android:text="视频"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.12" />
+
+        </TableRow>
+
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:weightSum="1">
+
+        <ImageButton android:id="@+id/menu_xx"
+            android:src="@drawable/menu_xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageButton android:id="@+id/menu_sz"
+            android:src="@drawable/menu_sz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jyace"
+            android:id="@+id/button11"
+            android:layout_weight="0.10" />
+        <ImageButton android:id="@+id/menu_tq"
+            android:src="@drawable/menu_tq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:weightSum="1">
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拼桌 "
+            android:id="@+id/button2"
+            android:layout_weight="0.10" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="留言"
+            android:id="@+id/button3"
+            android:layout_weight="0.12" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="推荐 "
+            android:id="@+id/button4"
+            android:layout_weight="0.072" />
+            <ImageButton android:id="@+id/menu_tc"
+                android:src="@drawable/menu_tc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+</TableRow>
+
+</LinearLayout>
+
+</LinearLayout>

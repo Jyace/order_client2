@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lixa.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/fooda111"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.lixa.activity.OrderMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lixa.activity.UserRegister" />
+        <activity android:name="com.lixa.activity.OrderMainMenu" />
+        <activity android:name="com.lixa.activity.OrderWeather" />
+        <activity android:name="com.lixa.activity.OrderUpdateActivity" />
+        <activity android:name="com.lixa.activity.OrderCollectActivity" />
+        <activity android:name="com.lixa.activity.OrderListActivity" />
+        <activity android:name="com.lixa.activity.OrderDetailActivity" />
+        <activity android:name="com.lixa.activity.OrderSettingActivity" />
+        <activity android:name="com.lixa.activity.Uniontable" />
+        <activity android:name="com.lixa.activity.InforModifyActivity" />
+        <activity android:name="com.lixa.activity.OrderCalendarActivity" />
+        <activity android:name="com.lixa.activity.OrderNoteActivity" />
+        <activity android:name="com.lixa.activity.OrderAmusementActivity" />
+    </application>
+
+</manifest>

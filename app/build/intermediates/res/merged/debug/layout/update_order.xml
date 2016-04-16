@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+	android:background="#abffd5"    >
+
+	<TextView android:id="@+id/update_order_text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/updatting"
+   		android:layout_marginTop="30dip"
+		/>
+		
+	<TextView android:id="@+id/new_num_order"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		/>
+		
+	<TextView android:id="@+id/update_num_order"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		/>
+		
+	<TextView android:id="@+id/delete_num_order"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		/>
+		
+	<TextView android:id="@+id/error_num_order"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		/>
+		
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:gravity="center">	
+		<ImageButton android:id="@+id/update_order_button" 
+			android:src="@drawable/sys_order"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+	</TableRow>
+</LinearLayout>

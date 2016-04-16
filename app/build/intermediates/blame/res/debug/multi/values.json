@@ -1,0 +1,353 @@
+[
+    {
+        "outputFile": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 47,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 144,
+                    "endColumn": 50,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 43,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endColumn": 37,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endColumn": 44,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 73,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 73,
+                        "endOffset": 345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 44,
+                    "endOffset": 436
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 441,
+                    "endColumn": 95,
+                    "endOffset": 532
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 95,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 537,
+                    "endColumn": 53,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 49,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 53,
+                    "endOffset": 690
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 695,
+                    "endColumn": 55,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 55,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 51,
+                    "endOffset": 854
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 859,
+                    "endColumn": 53,
+                    "endOffset": 908
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 913,
+                    "endColumn": 56,
+                    "endOffset": 965
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 970,
+                    "endColumn": 47,
+                    "endOffset": 1013
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1018,
+                    "endColumn": 65,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 50,
+                    "endOffset": 1130
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1135,
+                    "endColumn": 42,
+                    "endOffset": 1173
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1178,
+                    "endColumn": 53,
+                    "endOffset": 1227
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1232,
+                    "endColumn": 42,
+                    "endOffset": 1270
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1275,
+                    "endColumn": 52,
+                    "endOffset": 1323
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1328,
+                    "endColumn": 42,
+                    "endOffset": 1366
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1371,
+                    "endLine": 31,
+                    "endColumn": 13,
+                    "endOffset": 1541
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1546,
+                    "endColumn": 42,
+                    "endOffset": 1584
+                },
+                "from": {
+                    "file": "F:\\workspace\\order_client1\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    }
+]

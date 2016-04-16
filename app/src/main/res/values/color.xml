@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="red">#FF0000</color>
+   <color name="btn_bg">#B0DAD3</color>
+   <color name="golbal_bg">#007DBE</color>
+   <color name="calendar_text_bg">#E7F3F7</color>
+   <color name="calendar_text">#42465a</color>
+   <color name="rest_color">#3EAA59</color>
+</resources>

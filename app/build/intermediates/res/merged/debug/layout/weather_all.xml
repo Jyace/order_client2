@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#abffd5"
+    >
+
+    <TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dip"
+		android:layout_marginTop="15dip"
+		>
+		
+		<Spinner android:id="@+id/wearther_spinner_all" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:minWidth="200dip"
+			/>
+
+		<Button android:id="@+id/wearther_query_all" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="查看天气"/>
+			
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:layout_marginTop="10dip"
+		>
+		
+		<ImageView android:id="@+id/wearther_view_all"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		
+		<TextView android:id="@+id/wearther_text_all"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			/>
+	
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:layout_marginTop="10dip"
+		>
+		
+		<ImageView android:id="@+id/image_01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<TextView android:id="@+id/text_01"			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:layout_marginTop="10dip"
+		>
+		
+		<ImageView android:id="@+id/image_02"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<TextView android:id="@+id/text_02"			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:layout_marginTop="10dip"
+		>
+		
+		<ImageView android:id="@+id/image_03"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<TextView android:id="@+id/text_03"			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:layout_marginTop="10dip"
+		>
+		
+		<ImageView android:id="@+id/image_04"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<TextView android:id="@+id/text_04"			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:layout_marginTop="10dip"
+		android:gravity="center"
+		>
+		<Button android:id="@+id/go_back_to_main_menu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="invisible"
+			android:text=" 返 回  "
+			/>
+	</TableRow>
+</LinearLayout>

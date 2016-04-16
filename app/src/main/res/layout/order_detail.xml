@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#abffd5"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    >
+   	<ImageView android:id="@+id/order_detail_iamge"
+   		android:layout_width="wrap_content"
+   		android:maxWidth="100dip"
+   		android:layout_height="wrap_content"
+   		android:maxHeight="100dip"
+   		android:layout_alignParentTop="true"
+   		/>
+   
+   <TextView android:id="@+id/order_detail_price"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_toRightOf="@id/order_detail_iamge"
+   		android:layout_alignTop="@id/order_detail_iamge"
+   		android:paddingLeft="5dip"
+   		android:layout_marginTop="10dip"
+   		/>
+   	<TextView android:id="@+id/order_detail_name"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_below="@id/order_detail_price"
+   		android:layout_toRightOf="@id/order_detail_iamge"
+   		android:paddingLeft="5dip"
+   		android:layout_marginTop="5dip"
+   		/>
+   	<TextView android:id="@+id/order_detail_create"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_below="@id/order_detail_name"
+   		android:layout_toRightOf="@id/order_detail_iamge"
+   		android:paddingLeft="5dip"
+   		android:layout_marginTop="5dip"
+   		/>
+   	
+   	<TextView android:id="@+id/order_detail_desc"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_below="@id/order_detail_iamge"
+   		android:paddingLeft="5dip"
+   		android:layout_marginTop="10dip"
+   		/>
+   	<TableRow android:id="@+id/butoon_row" 
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+	   	android:layout_below="@id/order_detail_desc"
+   		>
+	    <Button android:id="@+id/mank_order_detail_btn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginTop="5dip"
+	    	android:visibility="invisible"
+	    	android:text=" 订 餐 "
+	    	/>
+	    <Button android:id="@+id/collect_order_detail_btn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignTop="@id/mank_order_detail_btn"
+	   		android:layout_toRightOf="@id/mank_order_detail_btn"
+	    	android:layout_marginTop="5dip"
+	    	android:layout_marginLeft="15dip"
+	    	android:visibility="invisible"
+	    	/>
+	    <Button android:id="@+id/go_back_order_list_btn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignTop="@id/collect_order_detail_btn"
+	   		android:layout_toRightOf="@id/collect_order_detail_btn"
+	    	android:layout_marginTop="5dip"
+	    	android:layout_marginLeft="15dip"
+	    	android:visibility="invisible"
+	    	android:text=" 返 回 "
+	    	/>
+	</TableRow>
+	<TableRow android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+	   	android:layout_below="@id/butoon_row"
+   		>
+   		<TextView android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="请输入您的座位号："
+   			android:textColor="@color/red"
+   			android:textSize="16dip"
+   			android:textStyle="bold"
+   			/>
+   		<AutoCompleteTextView android:id="@+id/site_auto_text_numver"
+   			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content"
+   			android:hint="以 0 开头"
+   			/>
+	   
+	</TableRow>
+</RelativeLayout>

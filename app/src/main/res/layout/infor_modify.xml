@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#abffd5"
+    >
+    <LinearLayout android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	>
+    	<TabWidget android:id="@android:id/tabs"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		/>
+		<FrameLayout android:id="@android:id/tabcontent" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			>
+			<RelativeLayout android:id="@+id/modify_infor_base"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				>
+				<TextView android:id="@+id/top_barner_text"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textColor="@color/red"
+					android:textSize="18dip"
+					android:textStyle="bold"
+					android:text="修改个人信息"
+					/>
+				<TableRow android:id="@+id/row_login_id" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/top_barner_text"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="登陆账号："
+						/>
+					<TextView android:id="@+id/modify_login_id"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_nike_name" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/row_login_id"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:minWidth="50dip"
+						android:layout_height="wrap_content"
+						android:text="昵      称 ："
+						/>
+					<EditText android:id="@+id/modify_nike_name"
+						android:layout_width="wrap_content"
+						android:minWidth="180dip"
+						android:hint="请输入昵称"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_email"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/row_nike_name"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="邮      箱 ："
+						/>
+					<EditText android:id="@+id/modify_email_account"
+						android:layout_width="wrap_content"
+						android:minWidth="180dip"
+						android:hint="请输入邮箱"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_phone"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/row_email"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="手机号码："
+						/>
+					<EditText android:id="@+id/modify_phone_number"
+						android:layout_width="wrap_content"
+						android:minWidth="180dip"
+						android:hint="请输入手机号码"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_gender" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/row_phone"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingTop="10dip"
+						android:text="性      别 ："
+						/>
+					<RadioGroup 
+						android:id="@+id/modify_gender"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						>						
+						<RadioButton android:id="@+id/modify_gender_boy" 
+							android:text="男"/>
+						<RadioButton android:id="@+id/modify_gender_gril" 
+							android:text="女"/>			
+					</RadioGroup>
+				</TableRow>
+				<TableRow android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:layout_below="@id/row_gender"
+					>
+					<Button android:id="@+id/modify_base_submit"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text=" 修 改 "
+						/>
+					<Button android:id="@+id/modify_base_go_back"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text=" 返 回 "
+						/>
+				</TableRow>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/modify_infor_password"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				>
+				<TextView android:id="@+id/top_barner_pwd"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textColor="@color/red"
+					android:textSize="18dip"
+					android:textStyle="bold"
+					android:text="修改密码"
+					/>
+				<TableRow android:id="@+id/row_old_pwd" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dip"
+					android:layout_below="@id/top_barner_pwd"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:minWidth="50dip"
+						android:layout_height="wrap_content"
+						android:text="原 密 码 ："
+						/>
+					<EditText android:id="@+id/modify_old_password"
+						android:layout_width="wrap_content"
+						android:minWidth="180dip"
+						android:password="true"
+						android:hint="请输入原密码"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_new_pwd"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dip"
+					android:layout_below="@id/row_old_pwd"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="新 密 码 ："
+						/>
+					<EditText android:id="@+id/modify_new_password"
+						android:layout_width="wrap_content"
+						android:minWidth="180dip"
+						android:password="true"
+						android:hint="请输入新密码"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_re_new_pwd"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dip"
+					android:layout_below="@id/row_new_pwd"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="重复密码："
+						/>
+					<EditText android:id="@+id/modify_re_new_password"
+						android:layout_width="wrap_content"
+						android:minWidth="180dip"
+						android:password="true"
+						android:hint="重复新密码"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:layout_marginTop="10dip"
+					android:layout_below="@id/row_re_new_pwd"
+					>
+					<Button android:id="@+id/modify_password_submit"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text=" 修 改 "
+						/>
+					<Button android:id="@+id/modify_password_go_back"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text=" 返 回 "
+						/>
+				</TableRow>
+			</RelativeLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

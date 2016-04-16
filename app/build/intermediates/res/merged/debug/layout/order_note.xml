@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#abffd5"
+    >
+    <LinearLayout android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	>
+    	<TabWidget android:id="@android:id/tabs"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		/>
+		<FrameLayout android:id="@android:id/tabcontent" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			>
+			<RelativeLayout android:id="@+id/note_add_layout"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+				>
+				<TextView android:id="@+id/top_barner_text"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textColor="@color/red"
+					android:textSize="18dip"
+					android:textStyle="bold"
+					android:text="添加留言"
+					/>
+				<TableRow android:id="@+id/row_date_id" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/top_barner_text"
+					>
+					<TextView android:id="@+id/note_date"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="2016-04-11"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_title_id" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/row_date_id"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:minWidth="50dip"
+						android:layout_height="wrap_content"
+						android:text="标题："
+						/>
+					<EditText android:id="@+id/note_add_title"
+						android:layout_width="wrap_content"
+						android:minWidth="220dip"
+						android:hint="请输入标题"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>
+				<TableRow android:id="@+id/row_content_id"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/row_title_id"
+					>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="描述："
+						/>
+					<EditText android:id="@+id/note_add_content"
+						android:layout_width="wrap_content"
+						android:minWidth="220dip"
+						android:minHeight="140dip"
+						android:layout_marginLeft="5dip"
+						android:hint="请输入内容"
+						android:layout_height="wrap_content"
+						/>
+				</TableRow>				
+				<TableRow android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:layout_below="@id/row_content_id"
+					>
+					<Button android:id="@+id/note_add_submit"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text=" 提 交 "
+						/>
+					<Button android:id="@+id/note_add_go_back"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text=" 返 回 "
+						/>
+				</TableRow>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/note_query_layout"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+				>
+				<TextView android:id="@+id/note_query_barner"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textColor="@color/red"
+					android:textSize="18dip"
+					android:textStyle="bold"
+					android:text="查询备忘录"
+					/>
+				<TableRow android:id="@+id/row_note_query_date" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dip"
+					android:paddingLeft="10dip"
+					android:layout_below="@id/note_query_barner"
+					>
+					<EditText android:id="@+id/note_query_date"
+						android:layout_width="wrap_content"
+						android:minWidth="190dip"
+						android:hint="日期（yyyy-MM-dd）"
+						android:layout_height="wrap_content"
+						/>					
+					<Button android:id="@+id/note_query_submit"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="查询"
+						/>
+					<Button android:id="@+id/note_query_go_back"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="返回"
+						/>
+				</TableRow>
+				
+				<ListView android:id="@+id/row_note_query_list"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:paddingLeft="10dip"
+					android:layout_below="@id/row_note_query_date"
+					>
+					
+				</ListView>
+			</RelativeLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

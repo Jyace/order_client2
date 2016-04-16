@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:background="#abffd5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="10dip"
+		android:background="#abffd5"
+    	android:paddingRight="10dip"
+    	>    	
+	    <TextView android:id="@+id/note_detail_title"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="15dip"
+	    	android:text="@string/accept"
+	    	/>	   
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="10dip"
+    	android:paddingRight="10dip"
+    	>
+     <TextView android:id="@+id/note_detail_content"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="15dip"
+	    	android:text="@string/app_name"
+	    	/>
+	  
+    </TableRow>
+    
+</LinearLayout>

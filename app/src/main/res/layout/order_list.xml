@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#abffd5"
+    >
+   
+   <TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:layout_marginTop="15dip"
+		>
+		<Spinner android:id="@+id/choise_order_type"
+			android:layout_width="wrap_content"
+			android:minWidth="180dip"
+			android:layout_height="fill_parent"
+	       />
+	    <Button android:id="@+id/query_order_by_type"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="查询"
+	    	/>
+	    <Button android:id="@+id/go_list_menu_btn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="返回"
+	    	/>
+   </TableRow>
+	
+   	<TextView android:id="@+id/order_title_image"
+		android:text="  ID     菜名         单价    制作时间"
+   		android:layout_width="fill_parent"
+		android:textSize="25dp"
+   		android:layout_height="wrap_content"
+   		android:layout_marginBottom="15dip"
+
+   		/>
+	<ListView android:id="@+id/menu_list_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip"
+		android:paddingRight="5dip"
+		/>
+	
+</LinearLayout>

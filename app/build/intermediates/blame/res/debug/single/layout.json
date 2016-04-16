@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_note.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_note.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_calendar.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_calendar.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_content.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\note_content.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weather_all.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\weather_all.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_module.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\item_list_module.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\infor_modify.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\infor_modify.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pinzhuo.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\pinzhuo.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_collect.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_collect.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_list.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_list.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_amusement.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_amusement.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\site_spinner.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\site_spinner.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_setting.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_setting.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_main.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_main.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_detail.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\order_detail.xml"
+    },
+    {
+        "merged": "F:\\workspace\\order_client1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_order.xml",
+        "source": "F:\\workspace\\order_client1\\app\\src\\main\\res\\layout\\update_order.xml"
+    }
+]

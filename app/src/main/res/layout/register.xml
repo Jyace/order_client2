@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+	android:background="#abffd5"
+    >
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip"
+		android:paddingRight="20dip"
+		android:layout_marginTop="20dip"
+		>		
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/username"
+			/>			
+		<EditText android:id="@+id/text_reg_username"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="请输入登录账号"
+			/>
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip"
+		android:paddingRight="20dip"
+		android:layout_marginTop="10dip"
+		>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/password"
+			/>
+		<EditText android:id="@+id/text_reg_password"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:password="true"
+			android:hint="请输入登录密码"
+			/>
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip"
+		android:paddingRight="20dip"
+		android:layout_marginTop="10dip"
+		>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="邮        箱:"
+			/>
+		<EditText android:id="@+id/text_reg_email"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="请输入常用邮箱"
+			/>
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="5dip"
+		android:paddingRight="20dip"
+		android:layout_marginTop="10dip"
+		>
+		<TextView android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:paddingTop="10dip"
+			android:text="性        别:"
+			/>
+			
+		<RadioGroup 
+			android:id="@+id/gender_radio"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+			
+			<RadioButton android:id="@+id/radio_boy" 
+				android:text="男"/>
+			<RadioButton android:id="@+id/radio_gril" 
+				android:text="女"/>
+				
+		</RadioGroup>
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingLeft="5dip"
+		>	
+		<ImageButton android:id="@+id/imb_reg_register"
+			android:src="@drawable/register"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<ImageButton android:id="@+id/imb_reg_reset"
+			android:src="@drawable/reset"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+		<ImageButton android:id="@+id/imb_reg_go_back"
+			android:src="@drawable/go_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+			
+	</TableRow>
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dip"
+		android:text="@string/accept"
+		/>
+	
+	<CheckBox android:id="@+id/cb_accept"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dip"
+		android:text="注册同意条款"
+		/>
+	
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#abffd5"
+    >
+		
+	 <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:textSize="16dip"
+		android:text="@string/user_setting"
+		/>
+	
+		
+	  <CheckBox android:id="@+id/setting_save_uname"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_marginLeft="20dip"
+	  	android:text="记住登陆账号"
+	  	/>
+
+
+	  <CheckBox android:id="@+id/setting_save_pwd"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_marginLeft="20dip"
+	  	android:text="记住登陆密码"
+	  	/>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:gravity="center"
+		>	
+		 <Button android:id="@+id/setting_submit_btn"
+		 	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:text=" 提交设置 "
+			/>
+		 <TextView android:layout_width="wrap_content"
+		 	android:layout_height="wrap_content"
+		 	android:text="（保存生效）"
+		 	/>
+	</TableRow>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#abffd5"
+    >
+    
+    <TextView android:id="@+id/collect_order_image"
+		android:background="@drawable/order_list_title"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_marginTop="15dip"
+   		android:layout_marginBottom="15dip"
+   		android:visibility="invisible"
+   		/>
+   
+	<ListView android:id="@+id/collect_order_menu_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+	
+</LinearLayout>
